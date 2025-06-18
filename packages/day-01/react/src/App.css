@@ -1,0 +1,70 @@
+.app {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-header {
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.app-header p {
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.app-main {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion-item {
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 1rem;
+  background: #2a2a2a;
+  border: none;
+  text-align: left;
+  font-size: 1.1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+  background: #333;
+}
+
+.accordion-content {
+  background: #1a1a1a;
+  padding: 0 1rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-body {
+  padding: 1rem 0;
+  color: #ccc;
+}
+
+.accordion-item.active .accordion-header {
+  background: #333;
+} 
