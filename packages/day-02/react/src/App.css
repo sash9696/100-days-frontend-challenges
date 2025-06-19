@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.tic-tac-toe {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.game-status {
+  margin: 20px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+} 

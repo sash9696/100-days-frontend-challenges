@@ -15,6 +15,9 @@
  * @param target Target sum
  * @returns Array of two indices whose values sum to target
  */
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+
 export function twoSum(nums: number[], target: number): number[] {
   const numMap = new Map<number, number>();
   
